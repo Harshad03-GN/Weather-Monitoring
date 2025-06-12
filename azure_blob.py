@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 connection_string=os.getenv("AZURE_CONNECTION_STRING")
-CONTAINER_NAME = "weather-data"
+CONTAINER_NAME = os.getenv("container")
 def upload_weather_to_blob(city, weather_data):
     print("📤 Starting upload to Azure Blob...")
 
@@ -15,7 +15,7 @@ def upload_weather_to_blob(city, weather_data):
             print("❌ Connection string is missing from environment variables.")
             return
 
-        container_name = "weather-data" 
+        container_name = os.getenv("container") 
         blob_service_client = BlobServiceClient.from_connection_string(connection_string)
 
         blob_name = f"{city.lower()}_{Timestamp}.json"
