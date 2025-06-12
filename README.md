@@ -9,7 +9,7 @@ A Flask-based weather monitoring web application that fetches real-time weather 
 
 ---
 
-## 📸 Preview
+## Preview
 
 > ✅ Enter city → Get current weather info  
 > ✅ Weather info is saved as JSON in Azure Blob Storage  
@@ -17,7 +17,7 @@ A Flask-based weather monitoring web application that fetches real-time weather 
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🌐 Search weather data for any city
 - 📤 Automatically upload weather JSON data to Azure Blob Storage
@@ -27,7 +27,7 @@ A Flask-based weather monitoring web application that fetches real-time weather 
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Backend
 - **Python**
@@ -53,7 +53,7 @@ A Flask-based weather monitoring web application that fetches real-time weather 
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 weather-monitoring/
